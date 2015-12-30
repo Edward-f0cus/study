@@ -1,8 +1,0 @@
-#!/usr/bin/expect -d
-
-spawn python
-set timeout 3
-expect ">>"
-sleep 2
-send "exit()"
-

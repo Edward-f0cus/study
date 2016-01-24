@@ -23,5 +23,6 @@ def fibo_iter(n):
 
 method_used = sys.argv[1]
 method_used = 'fibo_iter(3)' if method_used == 'iter' else 'fibo_gen(3)'
-for item in eval(method_used):
+# for item in eval(method_used):
+for item in fibo_gen(3):
     print item
